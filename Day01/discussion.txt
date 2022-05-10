@@ -1,0 +1,153 @@
+perl
+-----
+special variables
+-----------------
+
+function fun()
+
+@_ = [10, 20, 30, 40]
+
+fun(10, 20, 30, 40)
+
+
+TCL / TK
+--------
+
+if x > 10 {
+
+print(x) } else {
+
+x > 20
+
+
+
+Python
+-------
+
+1. relies on ready made functions 
+	eg :
+			we have an array of 50 elements => we want to length of the array, we have function called 
+		arr1 = [1, 2, 3, 4 , 5]
+		len => 		5 = len(arr1)
+
+
+2. writing the code in python is very easy
+
+
+Interpreted vs compilation
+--------------------------
+
+1. desktop application 	=	python  and  TK (TOOL KIT) GUI
+
+2. Web Application		=>	MVC - Model View Controller 	
+							REST API => Representation state transfer (JSON - Java script ojbect 																notation)
+
+							Flask, Django
+
+3. Mobile App		=> 	kivy
+
+4. Automation		=>  
+
+5. Testing			=>	pytest, selenium
+
+6. webscrapping	=>	Beautiful soup, scrappy
+
+7. ETL				=>	petl	
+
+8. Data Science
+
+	a. Data analytics		=>	
+	b. Deep Learning
+	c. ML					=>
+	d. AL					=>
+
+
+Data Engineer	-	Plays with the data
+
+Data Scientist	-	algorithm to be implemented
+
+
+Flavours of python
+------------------
+1. Cpython		-	currently using
+
+2. Jython		-	Convert python code to java code
+
+3. Iron Python	-	dotnet libraries
+
+
+Versions of python
+------------------
+2.x 	- 	3.x
+2.7		-	3.7
+
+tool => 2to3	=> to migrate from 2.x to 3.x
+
+
+3.10.x		-	www.python.org		/ 		www.activestate.com
+
+editor
+------
+Notepad++
+pycharm  (CE)
+vscode	 (CE)
+sublimetext 
+jupyter notebook
+spyder
+colabs
+IDLE		-	Integrated Development Environment
+
+
+Python 
+------
+1. SDK	-	libraries necessary to execute the python code
+
+2. Python Shell - interactive environment
+
+3. IDLE
+
+
+founder of python 	-	Guido van Rossum	->	Python	=> monty pythons flying circus ->  python
+
+Operator Overloading
+--------------------
+
++ 	=> used to add two integers and concatenate two strings
+
+*	=> used to multiply numbers and to display a string n number of times
+
+
+
+Primitive Datatypes
+===================
+
+1. Numbers
+	a. Integers
+	b. Float
+	c. Complex numbers
+
+2. Strings
+3. Boolean
+
+
+Module - imp
+
+method - reload
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
