@@ -1,0 +1,54 @@
+Strings
+-------
+1. collection of characters enclosed in ' ' or " "
+2. strings are immutable
+
+
+TypeError: 'str' object does not support item assignment
+In string class there is no setter method
+
+
+
+
+Assignment
+----------
+1. print("{val!s} {val!r} {val!a}".format(val="A"))
+
+	what is r, s and a
+
+
+2. create templates and implement it
+	a. one for header
+	b. one for data
+	
+	header_fmt = "{}{^{text}}{:>data}"
+	
+==================================================
+Item                                         Price
+==================================================
+Apples                                        0.40
+Pears                                         0.50
+Cantaloupes                                   1.92
+Dried Apricots (16 oz.)                       8.00
+Prunes (4 lbs.)                              12.00
+==================================================
+
+
+3. Arrange string characters such that lowercase letters should come first
+
+4. Count all letters, digits, and special symbols from a given string
+
+5. Find words with both alphabets and numbers
+
+6. Write a code to find if the string is a palindrome
+
+7. Write a Python program to remove the nth index character from a nonempty string
+
+8. Write a Python program to remove the characters which have odd index values of a given string
+
+9. Write a Python program to count the occurrences of each word in a given sentence
+
+10. Write a Python program to sort a string lexicographically.
+
+
+
