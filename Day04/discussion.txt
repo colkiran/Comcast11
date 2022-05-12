@@ -1,0 +1,120 @@
+Data Structures
+---------------
+1. Lists
+2. dictionaries
+3. tuples
+4. sets
+
+
+
+Lists  
+-----
+
+lists vs arrays
+---------------
+
+1. collection of objects enclosed in [ ]
+2. Ordered collection
+3. collection of hetrogenous data
+4. negative indexing is allowed in lists
+5. lists are mutable
+6. memory allocation is not contigious
+
+
+Arrays
+------
+1. collection of homogenous data
+2. memory allocation is contigious
+
+index 	: 0  1  2  3  4  5  6  7  8  9
+list	: 1, 2, 1, 1, 1, 1, 2, 3, 1, 2 
+
+
+step-1
+index 	: 0  1  2  3  4  5  6  7  8  9
+list	: 2, 1, 1, 1, 1, 2, 3, 1, 2 
+
+step-1
+index 	: 0  1  2  3  4  5  6  7  8  9
+list	: 2, 1, 1, 2, 3, 1, 2 
+
+
+
+Assignment -1
+
+months = ['dec', 'aug', 'oct', 'apr', 'feb', 'nov', 'jan', 'sep', 'may', 'mar', 'jul', 'jun']
+use sort or sorted function of lists and sort the months as they appear in the calendar
+
+
+Assignment - 2
+--------------
+write a code to create a identity matrix
+
+
+Assignment - 3
+---------------
+Write a code to create a magic matrix
+
+use the below link to know more about magic matrix
+
+https://www.youtube.com/watch?v=GYBr8n-_Rq4
+
+---------------------------------------------
+n x n => 3
+
+n ( n ** 2 + 1) / 2 => 3 ( 3 ** 2 + 1) / 2
+					  => 3 ( 10 ) / 2
+					  => 30 / 2 = 15
+
+if r = -1 => r = n - 1
+if c = 3  => c = 0
+------------------------
+if the cell is already occupied
+r = r + 1, c = c - 2
+------------------------
+if r = -1 and c = 3
+   r = 0 and c = n - 2
+
+1st  element
+
+r = n / 2, c = n - 1
+r = 1, c = 2
+
+2nd element
+r = 1, c = 2
+r = 0, c = 3 => 0
+r = 0, c = 0 
+
+3rd element
+r = 0 c = 0
+r = -1 => 2, c = 1
+
+4th element
+r = 2, c = 1
+r = 1, c = 2
+r = 2, c = 0
+
+
+6th element
+r = 0, c = 2
+
+7th element
+r = -1, c = 3
+r = 0 , c = 1
+
+8th element
+r = 0, c = 1
+r = -1 => 2, c = 2
+
+9th element	
+r = 2, c = 2
+r = 1, c = 3 => 0
+
+Assignment - 4
+---------------
+1! = 1
+2! = 2
+145! =  1! + 4! + 5!
+		 1  + 24 + 120
+	 = 145
+? 
