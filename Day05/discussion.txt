@@ -1,0 +1,79 @@
+Dictionaries
+------------
+1. dictionaries will have keys and values
+2. keys in a dictionary should be unique
+3. dictionaries are mutable
+4. collections of undordered data
+
+
+
+lists are ordered collection
+
+l = 1, 2, 3, 4, 5
+
+print(l) => 	[1, 2, 3, 4, 5]
+
+
+d = {1: 'a', 2: 'b', 3: 'c'}
+
+print(d) =>		{3: 'c', 1: 'a', 2: 'b'}
+
+-------------------------------------------------------------------------------
+yeshwant
+--------
+d2 = d1
+
+d2 = d1.copy()
+
+
+Neeraja
+--------
+drawback
+--------
+d2 = d1.copy()
+
+d2 = deepcopy(d1)
+
+Tuple
+-----
+1. tuple is an immutable list
+2. duplicates are allowed
+3. can be subscripted
+4. oredered collect
+5. tuples are enclosed in ()
+
+sets
+----
+1. elements of a set is always unique
+2. sets are mutable
+3. sets are not subscriptable
+4. sets are unordered
+5. sets are enclosed in { }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
