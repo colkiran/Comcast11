@@ -1,0 +1,10 @@
+Functions
+---------
+1. snipet of reusable code
+2. pass parameters
+3. we can return values from a function
+4. call a function
+5. modular programming
+6. recursive calls
+
+

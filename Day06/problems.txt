@@ -1,0 +1,93 @@
+1. Reverse a list in Python
+2. Concatenate two lists index-wise
+3. Turn every item of a list into its square
+4. Concatenate two lists in the following order
+5. Iterate both lists simultaneously
+6. Remove empty strings from the list of strings
+7. Add new item to list after a specified item
+8. Extend nested list by adding the sublist
+9. Replace list’s item with new value if found
+10. Remove all occurrences of a specific item from a list.
+11. Sort a list using the following technique
+	
+	1. Bubble Sort
+
+	2. Merge Sort
+
+	3. Insertion Sort
+
+	4. Shell Sort
+
+	5. Selection Sort
+
+12. Compare two list and find
+	a. duplicates
+	b. unique from
+		1. list-1
+		2. list-2
+
+13. Write a Python program to sum all the items in a list.
+14. Write a Python program to multiply all the items in a list.
+15. Write a Python program to get the 
+			a. largest number
+			b. second largest number
+			c. smallest number
+			d. second smallest number
+
+16.  Write a Python program to flatten a given nested list structure.
+Original list: [0, 10, [20, 30], 40, 50, [60, 70, 80], [90, 100, 110, 120]]
+Flatten list:[0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120]
+
+17. Write a Python program to remove consecutive duplicates of a given list.
+
+Original list: [0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4]
+After removing consecutive duplicates: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 4]
+
+
+
+Dictionaries
+------------
+1. Convert two lists into a dictionary
+2. Merge two Python dictionaries into one
+3. Print the value of key ‘history’ from the below dict
+4. Initialize dictionary with default values
+5. Create a dictionary by extracting the keys from a given dictionary
+6. Delete a list of keys from a dictionary
+7. Check if a value exists in a dictionary
+8. Rename key of a dictionary
+9. Get the key of a minimum value from the following dictionary
+10. Change value of a key in a nested dictionary
+
+11. Write a Python program to iterate over dictionaries using for loops. 
+
+12. Write a Python program to sort a given dictionary by key.
+
+13. Write a Python program to remove duplicates from Dictionary.
+
+14. Write a Python program to combine two dictionary adding values for common keys. 
+	d1 = {'a': 100, 'b': 200, 'c':300}
+	d2 = {'a': 300, 'b': 200, 'd':400}
+	Sample output: Counter({'a': 400, 'b': 400, 'd': 400, 'c': 300})
+
+15. A Python Dictionary contains List as value. Write a Python program to clear the list values in the said dictionary. 
+Original Dictionary: {'C1': [10, 20, 30], 'C2': [20, 30, 40], 'C3': [12, 34]}
+Clear the list values in the said dictionary:{'C1': [], 'C2': [], 'C3': []}
+
+
+16. Write a Python program to extract a list of values from a given list of dictionaries.
+
+Original Dictionary:[{'Math': 90, 'Science': 92}, {'Math': 89, 'Science': 94}, {'Math': 92, 'Science': 88}]
+Extract a list of values from said list of dictionaries where subject = Science
+[92, 94, 88]
+
+Original Dictionary:[{'Math': 90, 'Science': 92}, {'Math': 89, 'Science': 94}, {'Math': 92, 'Science': 88}]
+Extract a list of values from said list of dictionaries where subject = Math[90, 89, 92]
+
+
+17. Write a Python program to find the length of a given dictionary values.
+
+Original Dictionary:{1: 'red', 2: 'green', 3: 'black', 4: 'white', 5: 'black'}
+Length of dictionary values: {'red': 3, 'green': 5, 'black': 5, 'white': 5}
+
+Original Dictionary:{'1': 'Austin Little', '2': 'Natasha Howard', '3': 'Alfred Mullins', '4': 'Jamie Rowe'}
+Length of dictionary values:{'Austin Little': 13, 'Natasha Howard': 14, 'Alfred Mullins': 14, 'Jamie Rowe': 10}
