@@ -51,3 +51,26 @@ def fun(n):
 
 fun(10)
 
+def fact(n):
+    if n==1:
+        return n
+    else:
+        return n * fact(n-1)
+n = int(input("Enter the nummber to find the factorial :"))
+print(f"factorial of {n} is :{fact(n)}")
+
+print("Fibanocci Series".center(40 ,"-"))
+
+def fibonacci(n):
+    if(n <= 1):
+        return n
+    else:
+        return(fibonacci(n-1) + fibonacci(n-2))
+
+n = int(input("Enter number of terms:"))
+print("Fibonacci sequence:")
+for i in range(n):
+    print(fibonacci(i))
+
+
+
