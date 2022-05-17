@@ -8,3 +8,37 @@ Functions
 6. recursive calls
 
 
+1. using recursive calls write a code to
+
+	a. find the factorial of a number
+	b. generate fibanocci series
+
+
+lambdas
+-------
+1. its an anonymous function
+2. single expression
+
+
+comprehensions
+--------------
+iterating through a collection using lambda syntax
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
