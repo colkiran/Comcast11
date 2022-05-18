@@ -1,0 +1,34 @@
+Decorator
+---------
+are also called as metaprogramming as they change the behaviour of another program
+
+familiar with Functions to learn decorators and oops to implement class decorator
+
+
+Closures
+--------
+
+1. function enclosed in another function
+
+2. variable created in a different memory location is used in another memory
+
+3. even after the loosing the scope of the variable we can still access this variable in another memory
+
+
+
+HOF -> Higher Order Function
+-----------------------------
+if a function takes another function as an argument or returns a function as a return value then we 
+call this function as a HOF
+
+
+write a decorator that will calculate the time taken by the function to execute
+
+
+
+
+
+
+
+
+
