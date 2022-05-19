@@ -1,0 +1,56 @@
+OOPS
+----
+
+Object Oriented Programming
+---------------------------
+1. Inheritance
+2. Abstraction
+3. Encapsulation
+4. polymorphism
+
+
+
+90's
+----
+withdraw
+--------
+1. cheque
+2. DD
+
+
+2000's
+------
+withdraw
+---------
+
+debit card(withdraw)	- INHERITANCE
+----------
+account => mapped => card => authenticating (VISA / MASTER) => amount is withdrawn 
+
+
+Net Banking (debit_card)
+------------------------
+
+
+Class Attributes (varaibles)
+----------------------------
+
+
+write a class to overload all the arithematic operators
+
+1. add
+2. sub
+3. multi
+4. div
+5. floor div
+
+
+
+
+
+
+
+
+
+
+
