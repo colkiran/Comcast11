@@ -1,0 +1,92 @@
+Packages and Modules
+--------------------
+
+Modules
+-------
+modules are like libraries in other technologies
+
+any python file can be considered as a module (with an extension .py)
+
+modules will consist of functions, classes, datastructures and variables
+
+import module_name =>
+
+
+
+Packages
+--------
+
+package- folder
+-------------
+
+xyz(package)
+---
+mymodule
+-----------------
+fun()
+
+
+abc(package)
+---
+mymodule
+--------
+fun()
+
+
+
+
+import xyz.mymodule
+
+import abc.mymodule
+
+
+xyz.mymodule.fun()
+abc.mymodule.fun()
+
+2.x
+---
+mandatory to have a __init__.py file to consider the folder as a package
+
+3.x
+---
+not mandatory
+
+
+packages are compared with classes
+----------------------------------
+
+class											package
+-----											--------
+__init__ -> constructor						__init__.py => file will be executed first
+
+
+import mymodule
+---------------
+1. searches for the module in the current folder or the specified folder
+
+2. if module is found then converts the module into a bytecode (.py file to .pyc file) and store in a
+	folder __pycache__
+
+3. all modules should be placed in library path, sys.path location
+
+4. every time before it imports the .pyc file python will compare the date and time of creation of 
+	.py and .pyc file, if the .py file is having the latest date and time compared to .pyc file then            
+    python will recompile .py file to .pyc file
+
+
+import mymodule
+import mypackage.mymodule
+from mypackage import mymodule
+from mymodule import myclass
+from mymoudle import myfunction
+from mypackage import *
+
+
+
+
+
+
+
+
+
+
