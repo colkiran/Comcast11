@@ -1,0 +1,25 @@
+{
+  "books":[
+    {
+      "id": "B001",
+      "name": "Begning Python",
+      "language": "English",
+      "edition": {"English": "oreilly", "French": "Apress", "Spanish": "Wrox", "russian": "ABC"},
+      "author": "Jack"
+    },
+    {
+      "id" : "B002",
+      "name": "ML",
+      "language": "English",
+      "edition": {"English": "oreilly", "French": "Apress", "Spanish": "Wrox", "russian": "ABC"},
+      "author": "Mike"
+    },
+    {
+      "id": "B003",
+      "name": "J2EE",
+      "language": "English",
+      "edition": {"English": "oreilly", "French": "Apress", "Spanish": "Wrox", "russian": "ABC"},
+      "author": "Jack"
+    }
+  ]
+}
