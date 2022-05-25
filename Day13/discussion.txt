@@ -1,0 +1,152 @@
+Regular Expressions...?
+-----------------------
+*	-	series of characters
+
+? 	-	single character
+
+
+dir *.txt		=> filename can be anything and any number of characters
+
+dir a*.txt		=> filename with 'a' as the first character
+
+dir ?a*.txt		=> ? represents a single character
+
+---------------------------------------------------------------------------------
+
+st = "I have raised a complaint on Network issue on 5/05/2022 and the complaint number is 29432230 
+			which is not resolved till date, please explain"
+
+regular expression is seperate library 
+
+import re
+
+match, search, findall, finditer, compile....
+
+Basic Regular Expressions
+-------------------------
+^			- to check at the begning of the string
+
+$			- to check at the end of the string
+
+.			- single character 
+
+* 			- zero or any number of occurances	
+
+?			- zero or one occurance
+
++			- one or more occurances
+
+{n}			- exactly n number of times
+
+{n, }		- minimum n time and max infinite times
+
+{n, m}		- minimum n times and max m times
+
+[]			-	character class
+
+()			-	grouping
+
+|			- 	alternation
+
+\			-	supress a regular exp
+
+
+License Number
+--------------
+LCNO-KAR-05-2005-1234
+
+
+LCNO - remains the same
+
+KAR - State - KAR, KER, TND, APN, TEL, MAH, GOA
+
+05 - RTO - 01 - 73 (no 00)
+
+2005 - year - 2000+
+
+1234 - number - 0001 - 9999 (no 0000)
+
+
+lno = "LCNO-KAR-05"
+
+
+if re.search(r'LCNO-()-()', lno)
+
+------------------------------------------------------------------------------------------
+
+
+\w 		- word			- alpha numeric data
+
+\W		- non word		- special characters
+
+\d		- digits		- numeric data
+
+\D		- non digit		- non numeric data
+
+\s		- space			- spaces
+
+\S		- non space		- anything other than spaces
+
+\b		- word boundary
+
+\B		- non word boundary
+
+\A		- begning of the string
+
+\Z 		- end of the string
+
+
+reuse the regular expression already written -> backtracking
+
+Regular Expression
+------------------
+Date
+----
+
+dd/mm/yyyy
+dd-mm-yyyy
+
+invalid
+dd/mm-yyyy
+dd-mm/yyyy
+
+
+dd - 01-31
+mm - 01-12
+yyyy - 1900
+
+
+url = "www.google.com / search='%new hindi movies?' % / get_data2019 / fetch_data frm_1 / imdb? %hindi%movies$& / result = page1.aspx"
+
+write a regex to get data 
+	
+	a. before the /
+
+	b. between the /
+
+	c. after the /
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

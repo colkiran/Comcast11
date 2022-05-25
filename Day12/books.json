@@ -4,22 +4,71 @@
       "id": "B001",
       "name": "Begning Python",
       "language": "English",
-      "edition": {"English": "oreilly", "French": "Apress", "Spanish": "Wrox", "russian": "ABC"},
+      "edition": "oreilly",
       "author": "Jack"
     },
     {
       "id" : "B002",
       "name": "ML",
       "language": "English",
-      "edition": {"English": "oreilly", "French": "Apress", "Spanish": "Wrox", "russian": "ABC"},
+      "edition": "Apress",
       "author": "Mike"
     },
     {
       "id": "B003",
       "name": "J2EE",
       "language": "English",
-      "edition": {"English": "oreilly", "French": "Apress", "Spanish": "Wrox", "russian": "ABC"},
+      "edition": "Head First",
       "author": "Jack"
+    },
+    {
+      "id": "B004",
+      "name": "Python",
+      "language": "English",
+      "edition": "Orielly",
+      "author": "Anand"
+    },
+    {
+      "id": "B005",
+      "name": "Django Web Programming",
+      "language": "English",
+      "edition": "Wrox",
+      "author": "Rajesh"
+    },
+    {
+      "id": "B006",
+      "name": "Flask",
+      "language": "English",
+      "edition": "Head First",
+      "author": "Ali"
+    },
+    {
+      "id": "B007",
+      "name": "Deep Dive Python",
+      "language": "English",
+      "edition": "Apress",
+      "author": "Sathish"
+    },
+    {
+      "id": "B008",
+      "name": "Mastering Numpy",
+      "language": "English",
+      "edition": "Wrox",
+      "author": "Selva"
+    },
+    {
+      "id": "B009",
+      "name": "Data Analytics with Python",
+      "language": "English",
+      "edition": "Orielly",
+      "author": "Mahesh"
+    },
+    {
+      "id": "B010",
+      "name": "Nueral Network with Python",
+      "language": "English",
+      "edition": "Head First",
+      "author": "Ramesh"
     }
   ]
 }
