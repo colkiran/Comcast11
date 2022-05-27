@@ -1,0 +1,5 @@
+DEBUG:root:Product of 9 and 7 is 63
+INFO:root:Product of 9 and 7 is 63
+WARNING:root:Product of 9 and 7 is 63
+ERROR:root:Product of 9 and 7 is 63
+CRITICAL:root:Product of 9 and 7 is 63

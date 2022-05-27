@@ -1,0 +1,70 @@
+Exceptions
+----------
+num = 10
+
+try:
+
+	inv = 1 / num
+
+
+except ZeroDivisionError as z:
+
+	print(z)
+
+except ValueError as v:
+
+	print(v)
+
+else:
+	
+	print(f"The inverse of {num} is {inv}")
+
+finally:
+	
+	print("Irrespective of the errors that are triggered finally block will always get executed...")
+
+
+--------------------------------------------------
+
+1. write a code to check two list if they are not equal then raise an exception
+
+
+Logging Module
+--------------
+is used to generate a log file
+
+levelName			Level No		purpose
+Debug					10			  detailed information about fixing a problem
+
+Info					20			  Just to comfirm things are working as expected
+
+warning	 (default)		30			  Notify when things are not workinga as expected
+
+Error					40			  Used to notify if there is a error in the code
+
+Critical				50			  Serious problem in the code and program is hanging or unable to
+									  continue execution
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
